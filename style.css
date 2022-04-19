@@ -1,0 +1,111 @@
+body {
+  font-family: "popins";
+}
+body, html {
+  min-height: 100%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Navbar CSS */
+.navbar {
+  background: #f2f2f2;
+  padding: 0.5rem 1rem;
+  color: black;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 50%);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.nav-item {
+  margin-right: 1.5rem;
+  color: black;
+  font-weight: 500 ;
+  font-size: 16px;
+}
+.nav-link{
+  color: black !important;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.849);
+  border-color: #e3f2fd !important;
+}
+#logo {
+  height: 80px;
+  width: auto;
+}
+@media only screen and (max-width: 1200px) {
+  #logo {
+    height: 60px;
+  }
+}
+/* ------------ */
+
+.h1, h1 {
+  font-size: 4.5rem;
+}
+.copyright{
+  margin-top: 1rem;
+  font-size: large;
+}
+footer{
+  margin-top: 4rem;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgb(201, 200, 200);
+  color: rgb(0, 0, 0);
+}
+.footer_position{
+  /* position: absolute;
+  width: 100%;
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  clear: both; */
+  margin-top: 5rem;
+}
+.fa-linkedin-in{
+  border-radius: 4px;
+  border: 1px solid #183153;
+  background-color: #183153;
+  padding: 5px;
+  color: #ffffff;
+}
+.register_form_lable{
+
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+
+}
+.register_form,.login_form{
+  width: 50%;
+  background-color: #00b0e626;
+  padding: 30px;
+  border-radius: 1rem;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(0 123 255 / 25%);
+}
+@media only screen and (max-width: 1300px) {
+
+  .register_form,.login_form{
+  width: 90%;
+}
+}
+
